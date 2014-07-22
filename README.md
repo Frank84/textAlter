@@ -16,8 +16,8 @@ Use the method textAlter on a text selector.
 ```html
 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea a quo placeat necessitatibus, aliquid sint molestiae?</p>
 <script>
-		(function() {
-			$('input').click(function() { $('.text').textAlter(); });
-		})();
-	</script>
+	(function() {
+		$('input').click(function() { $('.text').textAlter(); });
+	})();
+</script>
 ```
