@@ -5,7 +5,7 @@ textAlter
 
 ### Usage ###
 
-Include [textalter.jquery.min.js] on your webpage.
+Include the script on your webpage.
 
 ```html
 <script src="js/textalter.jquery.min.js"></script>
