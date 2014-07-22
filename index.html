@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TextAlter</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>TextAlter Demo</h1>
+	<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea a quo placeat necessitatibus, aliquid sint molestiae? Aliquid, ab quasi esse inventore adipisci perspiciatis? Ex dolor non, itaque fuga aliquid? Ratione repellendus saepe itaque, iure dolor fugit neque molestias eos odio accusantium, facere, delectus suscipit. Optio odio aliquid voluptatum laborum totam, sapiente quod inventore, eum reiciendis dolore, distinctio excepturi qui laboriosam porro eos maxime voluptatem cumque tempora facere veritatis ratione voluptate neque quae. Architecto asperiores nemo quibusdam, modi cumque iste odit, tenetur provident, quisquam debitis recusandae molestias reiciendis, rem perspiciatis! Eos natus soluta facere, earum iure hic unde tempora quo error.</p>
+	<input type="button" value="Alter text" />
+	<script>
+		(function() {
+			$('input').click(function() { $('.text').textAlter(); });
+		})();
+	</script>
+	<script src="js/textalter.jquery.js"></script>
+</body>
+</html>

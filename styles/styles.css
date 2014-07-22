@@ -1,0 +1,14 @@
+body {
+	margin: 40px;
+	font-family: 'Arial', 'sans-serif';
+}
+.text {
+	max-width: 400px;
+	min-height: 360px;
+	line-height: 22px;
+	text-align: justify;
+}
+input[type='button'] {
+	width: 100px;
+	font-size: 2em;
+}
