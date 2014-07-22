@@ -1,7 +1,7 @@
 textAlter
 ==========
 
-**headtrackr** is a simple javascript script to alter the character of a block of text with random characters.
+**textAlter** is a simple javascript script to alter the character of a block of text with random characters.
 
 ### Usage ###
 
